@@ -1,0 +1,533 @@
+======================================================================
+FILE: applications.csv
+======================================================================
+Rows: 3,835   (PDF kehta hai: 3,835)  -> OK
+Columns (6): ['application_id', 'candidate_id', 'job_req_id', 'dept_id', 'stage', 'stage_date']
+
+column                          blank    unique
+application_id                      0     1,400
+candidate_id                        0     1,400
+job_req_id                          0        30
+dept_id                             0        14
+stage                               0         7
+stage_date                          0       196
+
+Values of 'dept_id':
+    'D21'                               492
+    'D08'                               453
+    'D23'                               431
+    'D15'                               403
+    'D14'                               333
+    'D22'                               297
+    'D02'                               257
+    'D18'                               242
+    'D25'                               242
+    'D05'                               227
+    'D20'                               129
+    'D16'                               120
+    'D11'                               114
+    'D06'                                95
+
+Values of 'stage':
+    'Applied'                         1,400
+    'Rejected'                        1,310
+    'Screened'                          682
+    'Interviewed'                       263
+    'Offered'                            90
+    'Hired'                              74
+    'Offer Declined'                     16
+
+Duplicate values in first column 'application_id': 2,435
+
+======================================================================
+FILE: biometric_punches.csv
+======================================================================
+Rows: 345,280   (PDF kehta hai: 345,280)  -> OK
+Columns (4): ['punch_id', 'device_id', 'device_user_id', 'punch_time']
+
+column                          blank    unique
+punch_id                            0   345,280
+device_id                           0         4
+device_user_id                      0     1,299
+punch_time                          0   322,346
+
+Values of 'device_id':
+    'DEV-KOR-01'                    109,882
+    'DEV-FSD-01'                    105,330
+    'DEV-SITE-01'                    95,284
+    'DEV-HO-01'                      34,784
+
+Duplicate values in first column 'punch_id': 0
+
+======================================================================
+FILE: departments.csv
+======================================================================
+Rows: 25   (PDF kehta hai: 25)  -> OK
+Columns (6): ['dept_id', 'dept_name', 'plant', 'cost_center', 'previous_name', 'renamed_on']
+
+column                          blank    unique
+dept_id                             0        25
+dept_name                           0        19
+plant                               0         4
+cost_center                         0        25
+previous_name                      23         3
+renamed_on                         23         3
+
+Values of 'plant':
+    'Head Office'                         7
+    'Korangi Plant'                       6
+    'SITE Plant'                          6
+    'Faisalabad Plant'                    6
+
+Values of 'previous_name':
+    ''                                   23
+    'Procurement'                         1
+    'Processing'                          1
+
+Values of 'renamed_on':
+    ''                                   23
+    '2026-07-01'                          1
+    '2026-06-01'                          1
+
+Duplicate values in first column 'dept_id': 0
+
+======================================================================
+FILE: device_mapping.csv
+======================================================================
+Rows: 1,260   (PDF kehta hai: 1,260)  -> OK
+Columns (4): ['device_id', 'device_user_id', 'emp_id', 'enrolled_on']
+
+column                          blank    unique
+device_id                           0         4
+device_user_id                      0     1,260
+emp_id                              0     1,260
+enrolled_on                         0       199
+
+Values of 'device_id':
+    'DEV-KOR-01'                        398
+    'DEV-FSD-01'                        388
+    'DEV-SITE-01'                       346
+    'DEV-HO-01'                         128
+
+Duplicate values in first column 'device_id': 1,256
+
+======================================================================
+FILE: employees.csv
+======================================================================
+Rows: 1,316   (PDF kehta hai: 1,316)  -> OK
+Columns (16): ['emp_id', 'full_name', 'gender', 'date_of_birth', 'email', 'phone', 'plant', 'department', 'designation', 'grade', 'employment_type', 'hire_date', 'separation_date', 'status', 'annual_leave_entitlement', 'updated_at']
+
+column                          blank    unique
+emp_id                              0     1,266
+full_name                           0       831
+gender                              0         2
+date_of_birth                       0     1,232
+email                               0     1,266
+phone                               0     1,279
+plant                               0         4
+department                          0        81
+designation                         0        11
+grade                               0         8
+employment_type                     0         2
+hire_date                           0     1,203
+separation_date                 1,226        85
+status                              0         2
+annual_leave_entitlement            0         2
+updated_at                          0       702
+
+Values of 'gender':
+    'M'                               1,103
+    'F'                                 213
+
+Values of 'plant':
+    'Korangi Plant'                     413
+    'Faisalabad Plant'                  410
+    'SITE Plant'                        360
+    'Head Office'                       133
+
+Values of 'designation':
+    'Operator'                          820
+    'Senior Operator'                   190
+    'Technician'                         78
+    'Supervisor'                         57
+    'Officer'                            35
+    'Senior Supervisor'                  30
+    'Assistant'                          29
+    'Assistant Manager'                  29
+    'Senior Officer'                     25
+    'Manager'                            15
+    'Senior Manager'                      8
+
+Values of 'grade':
+    'G1'                                820
+    'G2'                                190
+    'G3'                                107
+    'G4'                                 92
+    'G5'                                 55
+    'G6'                                 29
+    'G7'                                 15
+    'G8'                                  8
+
+Values of 'employment_type':
+    'Permanent'                       1,066
+    'Contract'                          250
+
+Values of 'status':
+    'Active'                          1,226
+    'Separated'                          90
+
+Values of 'annual_leave_entitlement':
+    '14'                              1,120
+    '20'                                196
+
+Duplicate values in first column 'emp_id': 50
+
+======================================================================
+FILE: employment_history.csv
+======================================================================
+Rows: 3,686   (PDF kehta hai: 3,686)  -> OK
+Columns (8): ['emp_id', 'effective_from', 'effective_to', 'dept_id', 'designation', 'grade', 'basic_salary', 'change_reason']
+
+column                          blank    unique
+emp_id                              0     1,266
+effective_from                      0     1,160
+effective_to                    1,266        85
+dept_id                             0        25
+designation                         0        11
+grade                               0         8
+basic_salary                        0       289
+change_reason                       0         4
+
+Values of 'designation':
+    'Operator'                        2,311
+    'Senior Operator'                   515
+    'Technician'                        214
+    'Supervisor'                        163
+    'Officer'                            94
+    'Senior Supervisor'                  88
+    'Assistant Manager'                  80
+    'Assistant'                          78
+    'Senior Officer'                     74
+    'Manager'                            48
+    'Senior Manager'                     21
+
+Values of 'grade':
+    'G1'                              2,311
+    'G2'                                515
+    'G3'                                292
+    'G4'                                257
+    'G5'                                162
+    'G6'                                 80
+    'G7'                                 48
+    'G8'                                 21
+
+Values of 'change_reason':
+    'Salary Revision'                 2,350
+    'Hire'                            1,266
+    'Transfer'                           40
+    'Promotion'                          30
+
+Duplicate values in first column 'emp_id': 2,420
+
+======================================================================
+FILE: holidays.csv
+======================================================================
+Rows: 12   (PDF kehta hai: 12)  -> OK
+Columns (3): ['holiday_date', 'holiday_name', 'scope']
+
+column                          blank    unique
+holiday_date                        0        12
+holiday_name                        0        10
+scope                               0         4
+
+Values of 'holiday_date':
+    '2026-04-25'                          1
+    '2026-05-01'                          1
+    '2026-05-27'                          1
+    '2026-05-28'                          1
+    '2026-05-29'                          1
+    '2026-06-13'                          1
+    '2026-06-25'                          1
+    '2026-06-26'                          1
+    '2026-07-18'                          1
+    '2026-08-14'                          1
+    '2026-08-26'                          1
+    '2026-09-12'                          1
+
+Values of 'holiday_name':
+    'Eid ul Adha'                         3
+    'Local holiday'                       1
+    'Labour Day'                          1
+    'Boiler inspection shutdown'          1
+    'Ashura (9 Muharram)'                 1
+    'Ashura (10 Muharram)'                1
+    'Plant maintenance shutdown'          1
+    'Independence Day'                    1
+    'Eid Milad un Nabi'                   1
+    'Annual plant shutdown'               1
+
+Values of 'scope':
+    'ALL'                                 8
+    'FSD'                                 2
+    'SITE'                                1
+    'KOR'                                 1
+
+Duplicate values in first column 'holiday_date': 0
+
+======================================================================
+FILE: overtime_requests.csv
+======================================================================
+Rows: 22,098   (PDF kehta hai: 22,098)  -> OK
+Columns (8): ['request_id', 'emp_id', 'ot_date', 'requested_hours', 'approved_hours', 'status', 'approver_id', 'requested_at']
+
+column                          blank    unique
+request_id                          0    22,098
+emp_id                              0     1,251
+ot_date                             0       183
+requested_hours                     0        18
+approved_hours                  2,432        19
+status                              0         3
+approver_id                     1,086        48
+requested_at                        0    19,944
+
+Values of 'status':
+    'Approved'                       19,666
+    'Rejected'                        1,346
+    'Pending'                         1,086
+
+Duplicate values in first column 'request_id': 0
+
+======================================================================
+FILE: payroll_lines.csv
+======================================================================
+Rows: 53,617   (PDF kehta hai: 53,617)  -> OK
+Columns (7): ['line_id', 'payroll_month', 'emp_id', 'component', 'component_type', 'units', 'amount']
+
+column                          blank    unique
+line_id                             0    53,617
+payroll_month                       0         6
+emp_id                              0     1,266
+component                           0         9
+component_type                      0         2
+units                          43,817        67
+amount                              0     3,980
+
+Values of 'payroll_month':
+    '2026-04'                         9,022
+    '2026-06'                         8,985
+    '2026-07'                         8,953
+    '2026-05'                         8,945
+    '2026-09'                         8,878
+    '2026-08'                         8,834
+
+Values of 'component':
+    'BASIC'                           7,233
+    'HOUSE_RENT'                      7,233
+    'MEDICAL'                         7,233
+    'CONVEYANCE'                      7,233
+    'EOBI'                            7,233
+    'INCOME_TAX'                      7,136
+    'OVERTIME'                        6,572
+    'ABSENCE_DEDUCTION'               3,228
+    'LOAN_INSTALLMENT'                  516
+
+Values of 'component_type':
+    'EARNING'                        35,504
+    'DEDUCTION'                      18,113
+
+Duplicate values in first column 'line_id': 0
+
+======================================================================
+FILE: shift_roster.csv
+======================================================================
+Rows: 36,402   (PDF kehta hai: 36,402)  -> OK
+Columns (3): ['emp_id', 'week_start', 'shift_code']
+
+column                          blank    unique
+emp_id                              0     1,266
+week_start                          0        31
+shift_code                          0         4
+
+Values of 'shift_code':
+    'EVE'                            10,606
+    'DAY'                            10,596
+    'NIGHT'                          10,592
+    'GEN'                             4,608
+
+Duplicate values in first column 'emp_id': 35,136
+
+======================================================================
+FILE: leave_requests.json
+======================================================================
+Top-level type: list
+Records: 5,372   (PDF kehta hai: 5,372)  -> OK
+First record:
+{
+  "request_id": "LR000001",
+  "employee": {
+    "emp_id": "E10001",
+    "plant": "Korangi Plant"
+  },
+  "leave": {
+    "type": "Casual",
+    "from": "2026-04-08",
+    "to": "2026-04-08",
+    "days_requested": 1
+  },
+  "submitted_at": "2026-04-04T10:10:00",
+  "approvals": [
+    {
+      "step": 1,
+      "approver_role": "Manager",
+      "approver_id": "E10827",
+      "action": "Approved",
+      "acted_at": "2026-04-05T02:10:00"
+    },
+    {
+      "step": 2,
+      "approver_role": "HR",
+      "approver_id": "HR-DESK",
+      "action": "Approved",
+      "acted_at": "2026-04-05T07:10:00"
+    }
+  ],
+  "cancelled_at": "2026-04-05T21:10:00"
+}
+
+======================================================================
+FILE: shifts.json
+======================================================================
+Top-level type: dict, keys = ['shifts']
+Records: 4   (PDF kehta hai: 4)  -> OK
+First record:
+{
+  "shift_code": "DAY",
+  "name": "Day",
+  "start_time": "06:00",
+  "end_time": "14:00",
+  "crosses_midnight": false,
+  "grace_minutes": 10,
+  "applies_to": "Plant shift workers"
+}
+
+######################################################################
+EXTRA CHECKS: employees.csv
+######################################################################
+Date formats in 'date_of_birth':
+    YYYY-MM-DD        782
+    DD/MM/YYYY        338
+    DD-Mon-YYYY       196
+Date formats in 'hire_date':
+    YYYY-MM-DD        791
+    DD/MM/YYYY        322
+    DD-Mon-YYYY       203
+Date formats in 'separation_date':
+    BLANK           1,226
+    YYYY-MM-DD         44
+    DD/MM/YYYY         27
+    DD-Mon-YYYY        19
+
+Alag alag department spellings (stray spaces dikhane ke liye repr use hua):
+    'Stitching'                            103
+    'Weaving'                               81
+    'Dyeing'                                77
+    'Quality Control'                       74
+    'Maintenance'                           73
+    'Spinning'                              69
+    'Warehouse'                             58
+    'Cutting'                               51
+    'Packing'                               45
+    'Finishing'                             45
+    'spinning  '                            23
+    'weaving  '                             23
+    'stitching  '                           22
+    'STITCHING'                             20
+    'WEAVING'                               20
+    'Utilities'                             19
+    'MAINTENANCE'                           18
+    'Production Planning'                   18
+    'Processing'                            18
+    'cutting  '                             17
+    ' Weaving'                              17
+    ' Spinning'                             17
+    ' Stitching'                            17
+    'Finance'                               16
+    'quality control  '                     16
+    'dyeing  '                              15
+    'Sales & Marketing'                     14
+    ' Finishing'                            14
+    'SPINNING'                              14
+    'DYEING'                                14
+    ' Dyeing'                               13
+    'Administration'                        12
+    'maintenance  '                         12
+    'WAREHOUSE'                             11
+    'Compliance'                            11
+    'QUALITY CONTROL'                       11
+    'Human Resources'                       11
+    'UTILITIES'                             10
+    ' Cutting'                              10
+    'PACKING'                               10
+    ' Quality Control'                      10
+    'IT'                                    10
+    'CUTTING'                                9
+    ' Maintenance'                           9
+    'warehouse  '                            9
+    'finishing  '                            8
+    ' Packing'                               8
+    'PROCESSING'                             8
+    'packing  '                              8
+    'Supply Chain'                           7
+    'FINISHING'                              7
+    ' Warehouse'                             7
+    'Procurement'                            6
+    ' Processing'                            5
+    'production planning  '                  5
+    'utilities  '                            5
+    'SALES & MARKETING'                      5
+    'sales & marketing  '                    5
+    'PRODUCTION PLANNING'                    4
+    'administration  '                       4
+    'it  '                                   4
+    'procurement  '                          3
+    'HUMAN RESOURCES'                        3
+    ' Administration'                        3
+    'processing  '                           3
+    'SUPPLY CHAIN'                           3
+    ' Utilities'                             2
+    'finance  '                              2
+    ' Finance'                               2
+    'human resources  '                      2
+    ' Sales & Marketing'                     1
+    'PROCUREMENT'                            1
+    'FINANCE'                                1
+    ' IT'                                    1
+    'It'                                     1
+    ' Procurement'                           1
+    'ADMINISTRATION'                         1
+    ' Production Planning'                   1
+    'supply chain  '                         1
+    'compliance  '                           1
+    'COMPLIANCE'                             1
+
+Employees jo 2+ baar aaye: 50 ids, 100 rows
+Pehle 3 duplicate ids ka namoona:
+     emp_id      full_name gender date_of_birth                               email         phone             plant   department designation grade employment_type   hire_date separation_date  status annual_leave_entitlement           updated_at
+21   E10026  Nadeem Soomro      M    1976-09-12  nadeem.soomro896@induswave.example  0307-9559808        SITE Plant  MAINTENANCE    Operator    G1       Permanent  18/09/2013                  Active                       14  2026-07-01 18:42:00
+989  E10026  Nadeem Soomro      M    1976-09-12  nadeem.soomro896@induswave.example   03079559808        SITE Plant  Maintenance    Operator    G1       Permanent  18/09/2013                  Active                       14  2026-05-07 18:42:00
+766  E10142   USMAN BALOCH      M    1986-08-22   usman.baloch502@induswave.example  0319-9448050  Faisalabad Plant    Stitching    Operator    G1        Contract  2014-10-14                  Active                       14  2026-01-27 16:18:00
+468  E10142   Usman Baloch      M    1986-08-22   usman.baloch502@induswave.example  0319-9448050  Faisalabad Plant  stitching      Operator    G1        Contract  2014-10-14                  Active                       14  2026-07-01 16:18:00
+803  E10162     Asif Mirza      M    2004-12-21      asif.mirza67@induswave.example  0340-4307056        SITE Plant       DYEING    Operator    G1       Permanent  2014-03-15                  Active                       14  2026-07-01 11:15:00
+187  E10162     ASIF MIRZA      M    2004-12-21      asif.mirza67@induswave.example  0340-4307056        SITE Plant       Dyeing    Operator    G1       Permanent  2014-03-15                  Active                       14  2025-10-28 11:15:00
+
+######################################################################
+EXTRA CHECKS: biometric_punches.csv
+######################################################################
+Punch per device:
+    'DEV-KOR-01'          109,882
+    'DEV-FSD-01'          105,330
+    'DEV-SITE-01'          95,284
+    'DEV-HO-01'            34,784
+Sample punch_time values: ['2026-04-01 05:35:12', '2026-04-01 05:35:14', '2026-04-01 05:35:30', '2026-04-01 05:35:33', '2026-04-01 05:35:33']
+Min punch_time: 2026-04-01 05:35:12
+Max punch_time: 2026-10-01 10:24:52

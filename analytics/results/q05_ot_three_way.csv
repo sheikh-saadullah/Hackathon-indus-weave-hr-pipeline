@@ -1,0 +1,115 @@
+department_name,month,computed_ot,approved_ot,paid_ot
+Administration,2026-04,8.0,0,0
+Compliance,2026-04,3.5,0,0
+Cutting,2026-04,7096.5,0,0
+Dyeing,2026-04,10375.5,0,0
+Finance,2026-04,4.5,0,0
+Finishing,2026-04,9774.0,0,0
+Human Resources,2026-04,4.5,0,0
+IT,2026-04,6.0,0,0
+Maintenance,2026-04,10502.5,0,0
+Packing,2026-04,5582.0,0,0
+Production Planning,2026-04,73.5,0,0
+Quality Control,2026-04,8947.0,0,0
+Sales & Marketing,2026-04,5.0,0,0
+Spinning,2026-04,11844.5,0,0
+Stitching,2026-04,13940.5,0,0
+Supply Chain,2026-04,5.5,0,0
+Utilities,2026-04,3330.5,0,0
+Warehouse,2026-04,7693.5,0,0
+Weaving,2026-04,12317.5,0,0
+Administration,2026-05,6.0,0,0
+Compliance,2026-05,2.0,0,0
+Cutting,2026-05,5341.5,0,0
+Dyeing,2026-05,7469.5,0,0
+Finance,2026-05,8.0,0,0
+Finishing,2026-05,7637.5,0,0
+Human Resources,2026-05,3.0,0,0
+IT,2026-05,3.5,0,0
+Maintenance,2026-05,8048.5,0,0
+Packing,2026-05,4240.5,0,0
+Production Planning,2026-05,61.0,0,0
+Quality Control,2026-05,7466.0,0,0
+Sales & Marketing,2026-05,5.5,0,0
+Spinning,2026-05,8622.5,0,0
+Stitching,2026-05,10941.0,0,0
+Supply Chain,2026-05,9.0,0,0
+Utilities,2026-05,2404.0,0,0
+Warehouse,2026-05,5632.5,0,0
+Weaving,2026-05,9431.5,0,0
+Administration,2026-06,2.5,0,0
+Compliance,2026-06,7.0,0,0
+Cutting,2026-06,6876.5,0,0
+Dyeing,2026-06,8222.0,0,0
+Finance,2026-06,8.0,0,0
+Finishing,2026-06,7874.0,0,0
+Human Resources,2026-06,7.5,0,0
+IT,2026-06,6.5,0,0
+Maintenance,2026-06,8510.5,0,0
+Packing,2026-06,4770.5,0,0
+Production Planning,2026-06,71.5,0,0
+Quality Control,2026-06,8152.0,0,0
+Sales & Marketing,2026-06,6.0,0,0
+Spinning,2026-06,9912.0,0,0
+Stitching,2026-06,12666.5,0,0
+Supply Chain,2026-06,3.5,0,0
+Utilities,2026-06,2454.5,0,0
+Warehouse,2026-06,6155.5,0,0
+Weaving,2026-06,10424.5,0,0
+Administration,2026-07,6.0,0,0
+Compliance,2026-07,4.5,0,0
+Cutting,2026-07,7510.0,0,0
+Dyeing,2026-07,14003.5,0,0
+Finance,2026-07,12.0,0,0
+Finishing,2026-07,12706.0,0,0
+Human Resources,2026-07,3.0,0,0
+IT,2026-07,0.5,0,0
+Maintenance,2026-07,10722.0,0,0
+Packing,2026-07,5790.0,0,0
+Production Planning,2026-07,80.0,0,0
+Quality Control,2026-07,11494.0,0,0
+Sales & Marketing,2026-07,9.0,0,0
+Spinning,2026-07,12621.5,0,0
+Stitching,2026-07,14785.5,0,0
+Supply Chain,2026-07,6.5,0,0
+Utilities,2026-07,3866.5,0,0
+Warehouse,2026-07,8794.5,0,0
+Weaving,2026-07,13452.5,0,0
+Administration,2026-08,7.0,0,0
+Compliance,2026-08,2.5,0,0
+Cutting,2026-08,6205.5,0,0
+Dyeing,2026-08,9983.0,0,0
+Finance,2026-08,6.0,0,0
+Finishing,2026-08,8972.0,0,0
+Human Resources,2026-08,8.5,0,0
+IT,2026-08,4.0,0,0
+Maintenance,2026-08,8717.0,0,0
+Packing,2026-08,4826.0,0,0
+Production Planning,2026-08,88.5,0,0
+Quality Control,2026-08,8721.0,0,0
+Sales & Marketing,2026-08,8.5,0,0
+Spinning,2026-08,8836.0,0,0
+Stitching,2026-08,11649.0,0,0
+Supply Chain,2026-08,5.0,0,0
+Utilities,2026-08,2850.5,0,0
+Warehouse,2026-08,6445.5,0,0
+Weaving,2026-08,9046.0,0,0
+Administration,2026-09,8.5,0,0
+Compliance,2026-09,3.5,0,0
+Cutting,2026-09,7697.0,0,0
+Dyeing,2026-09,13285.0,0,0
+Finance,2026-09,6.0,0,0
+Finishing,2026-09,11259.0,0,0
+Human Resources,2026-09,4.0,0,0
+IT,2026-09,3.0,0,0
+Maintenance,2026-09,10384.0,0,0
+Packing,2026-09,5800.5,0,0
+Production Planning,2026-09,55.0,0,0
+Quality Control,2026-09,10339.5,0,0
+Sales & Marketing,2026-09,5.5,0,0
+Spinning,2026-09,11534.5,0,0
+Stitching,2026-09,14940.0,0,0
+Supply Chain,2026-09,6.0,0,0
+Utilities,2026-09,3829.0,0,0
+Warehouse,2026-09,7863.0,0,0
+Weaving,2026-09,12320.5,0,0

@@ -1,0 +1,11 @@
+check_name,category,expected,actual,status,run_at
+dim_employee PK unique,Uniqueness,0,0,PASS,2026-10-25T05:05:08.082292
+dim_department PK unique,Uniqueness,0,0,PASS,2026-10-25T05:05:08.082292
+fact_attendance FK emp,Referential,0,0,PASS,2026-10-25T05:05:08.082292
+fact_attendance FK dept,Referential,0,0,PASS,2026-10-25T05:05:08.082292
+dim_employee FK dept,Referential,0,0,PASS,2026-10-25T05:05:08.082292
+No negative overtime,Sanity,0,0,PASS,2026-10-25T05:05:08.082292
+No shift > 16h,Sanity,0,4338,FAIL,2026-10-25T05:05:08.082292
+No negative worked hours,Sanity,0,0,PASS,2026-10-25T05:05:08.082292
+dim_employee row count,Reconciliation,1266,1266,PASS,2026-10-25T05:05:08.082292
+fact_attendance row count,Reconciliation,226271,226271,PASS,2026-10-25T05:05:08.082292

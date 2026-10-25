@@ -1,0 +1,115 @@
+month,plant,department_name,headcount
+2026-04,Faisalabad Plant,Cutting,80
+2026-04,Faisalabad Plant,Maintenance,102
+2026-04,Faisalabad Plant,Packing,62
+2026-04,Faisalabad Plant,Quality Control,101
+2026-04,Faisalabad Plant,Stitching,151
+2026-04,Faisalabad Plant,Warehouse,79
+2026-04,Head Office,Administration,17
+2026-04,Head Office,Compliance,12
+2026-04,Head Office,Finance,20
+2026-04,Head Office,Human Resources,16
+2026-04,Head Office,IT,14
+2026-04,Head Office,Sales & Marketing,24
+2026-04,Head Office,Supply Chain,18
+2026-04,Korangi Plant,Production Planning,25
+2026-04,Korangi Plant,Spinning,119
+2026-04,Korangi Plant,Weaving,132
+2026-04,SITE Plant,Dyeing,107
+2026-04,SITE Plant,Finishing,100
+2026-04,SITE Plant,Utilities,34
+2026-05,Faisalabad Plant,Cutting,80
+2026-05,Faisalabad Plant,Maintenance,104
+2026-05,Faisalabad Plant,Packing,62
+2026-05,Faisalabad Plant,Quality Control,103
+2026-05,Faisalabad Plant,Stitching,154
+2026-05,Faisalabad Plant,Warehouse,80
+2026-05,Head Office,Administration,17
+2026-05,Head Office,Compliance,13
+2026-05,Head Office,Finance,20
+2026-05,Head Office,Human Resources,16
+2026-05,Head Office,IT,14
+2026-05,Head Office,Sales & Marketing,25
+2026-05,Head Office,Supply Chain,18
+2026-05,Korangi Plant,Production Planning,25
+2026-05,Korangi Plant,Spinning,119
+2026-05,Korangi Plant,Weaving,133
+2026-05,SITE Plant,Dyeing,109
+2026-05,SITE Plant,Finishing,100
+2026-05,SITE Plant,Utilities,34
+2026-06,Faisalabad Plant,Cutting,80
+2026-06,Faisalabad Plant,Maintenance,105
+2026-06,Faisalabad Plant,Packing,62
+2026-06,Faisalabad Plant,Quality Control,104
+2026-06,Faisalabad Plant,Stitching,154
+2026-06,Faisalabad Plant,Warehouse,80
+2026-06,Head Office,Administration,17
+2026-06,Head Office,Compliance,13
+2026-06,Head Office,Finance,20
+2026-06,Head Office,Human Resources,16
+2026-06,Head Office,IT,15
+2026-06,Head Office,Sales & Marketing,25
+2026-06,Head Office,Supply Chain,20
+2026-06,Korangi Plant,Production Planning,25
+2026-06,Korangi Plant,Spinning,119
+2026-06,Korangi Plant,Weaving,134
+2026-06,SITE Plant,Dyeing,112
+2026-06,SITE Plant,Finishing,101
+2026-06,SITE Plant,Utilities,34
+2026-07,Faisalabad Plant,Cutting,81
+2026-07,Faisalabad Plant,Maintenance,107
+2026-07,Faisalabad Plant,Packing,62
+2026-07,Faisalabad Plant,Quality Control,106
+2026-07,Faisalabad Plant,Stitching,155
+2026-07,Faisalabad Plant,Warehouse,82
+2026-07,Head Office,Administration,17
+2026-07,Head Office,Compliance,13
+2026-07,Head Office,Finance,20
+2026-07,Head Office,Human Resources,16
+2026-07,Head Office,IT,15
+2026-07,Head Office,Sales & Marketing,25
+2026-07,Head Office,Supply Chain,20
+2026-07,Korangi Plant,Production Planning,25
+2026-07,Korangi Plant,Spinning,119
+2026-07,Korangi Plant,Weaving,136
+2026-07,SITE Plant,Dyeing,112
+2026-07,SITE Plant,Finishing,102
+2026-07,SITE Plant,Utilities,34
+2026-08,Faisalabad Plant,Cutting,82
+2026-08,Faisalabad Plant,Maintenance,108
+2026-08,Faisalabad Plant,Packing,65
+2026-08,Faisalabad Plant,Quality Control,106
+2026-08,Faisalabad Plant,Stitching,156
+2026-08,Faisalabad Plant,Warehouse,83
+2026-08,Head Office,Administration,18
+2026-08,Head Office,Compliance,13
+2026-08,Head Office,Finance,20
+2026-08,Head Office,Human Resources,16
+2026-08,Head Office,IT,15
+2026-08,Head Office,Sales & Marketing,25
+2026-08,Head Office,Supply Chain,20
+2026-08,Korangi Plant,Production Planning,25
+2026-08,Korangi Plant,Spinning,120
+2026-08,Korangi Plant,Weaving,137
+2026-08,SITE Plant,Dyeing,115
+2026-08,SITE Plant,Finishing,102
+2026-08,SITE Plant,Utilities,35
+2026-09,Faisalabad Plant,Cutting,83
+2026-09,Faisalabad Plant,Maintenance,109
+2026-09,Faisalabad Plant,Packing,65
+2026-09,Faisalabad Plant,Quality Control,106
+2026-09,Faisalabad Plant,Stitching,157
+2026-09,Faisalabad Plant,Warehouse,83
+2026-09,Head Office,Administration,19
+2026-09,Head Office,Compliance,13
+2026-09,Head Office,Finance,20
+2026-09,Head Office,Human Resources,16
+2026-09,Head Office,IT,15
+2026-09,Head Office,Sales & Marketing,25
+2026-09,Head Office,Supply Chain,20
+2026-09,Korangi Plant,Production Planning,25
+2026-09,Korangi Plant,Spinning,121
+2026-09,Korangi Plant,Weaving,137
+2026-09,SITE Plant,Dyeing,115
+2026-09,SITE Plant,Finishing,102
+2026-09,SITE Plant,Utilities,35
